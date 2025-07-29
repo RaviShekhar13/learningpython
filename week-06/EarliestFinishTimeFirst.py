@@ -6,7 +6,7 @@ def no_overlap(L):
     count=0
     for timeSlot in sorted_on_Finish_Time:
         if(final_list==[]):
-            id,start,end=timeSlot[0],timeSlot[1],timeSlot[2]
+            # id,start,end=timeSlot[0],timeSlot[1],timeSlot[2]
             final_list.append(timeSlot)
         else:
             if(final_list[-1][2]<timeSlot[1]):
